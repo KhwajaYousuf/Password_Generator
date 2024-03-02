@@ -14,7 +14,7 @@
         <input type="text", id="password", placeholder="Password">
         <img src="images/copy.png" alt="Copy Icon">
     </div>
-    <button> <img src="images/generate.png" alt="Generate Image">Generate Password</button>
+    <button onclick="createPassword()"><img src="images/generate.png" alt="Generate Image">Generate Password</button>
 
 </div>
     
@@ -39,8 +39,6 @@ function createPassword() {
         password += allChars[Math.floor(Math.random()*allChars.length)];
     }
     passwordBox.value = password;
-
-
 
 }
 
