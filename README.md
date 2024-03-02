@@ -1,4 +1,4 @@
-Random Password Generator
+Random Password Generator:
 This is a web application that generates random passwords with various configurations.
 
 Features:
